@@ -4,15 +4,20 @@ title: permalink
 About: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Experience
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+2015-2019
+: [Chainalysis Inc.](https://chainalysis.com)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Education
+
+2015
+: Master's Thesis (cryptography and blockchain technologies), Denmark
+
+2014
+: Information Security [ETH Zürich](http://www.informationsecurity.ethz.ch), Switzerland
+
+2010-2013
+: Bachelor of Computer Science - [Aarhus Universitet](http://cs.au.dk), Denmark
 
 
-[jekyll-organization]: https://github.com/jekyll
