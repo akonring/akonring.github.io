@@ -14,6 +14,13 @@ html, body {
     font-weight: 300;
 }
 
+.title {
+    h1 {
+	margin: 0;
+    }
+    margin-bottom: 20px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color:#222;
     font-weight: 400;
@@ -50,6 +57,11 @@ a {
 }
 
 a:hover {
+    color:#069;
+    font-weight:300;
+}
+
+a:focus {
     color:#069;
     font-weight:300;
 }

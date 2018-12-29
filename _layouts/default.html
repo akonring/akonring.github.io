@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-     <script type="text/javascript" async
+    <script type="text/javascript" async
 	    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
     </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% seo %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131461548-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131461548-1');
+</script>
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -22,15 +30,19 @@
         <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p>Math Enthusiast & Crypto Connoisseur.</p>
+	<p>Solving the Problem of Trust in the Digital Age,
+	  one line of code at a time.</p>
 
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
+	<p class="view">
+	  <a href="about">About </a> </p>
+	<p class="view">
+	  <a href="https://github.com/akonring">GitHub</a><br/>
+	  <a href="https://twitter.com/akonring">Twitter</a><br/>
+	  <a href="https://keybase.io/akonring">Keybase</a>	  
+	</p>
 
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
+
 
         {% if site.show_downloads %}
         <ul class="downloads">
